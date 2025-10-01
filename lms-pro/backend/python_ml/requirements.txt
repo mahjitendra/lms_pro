@@ -1,6 +1,19 @@
-flask
-tensorflow
-torch
+# --- Core API Framework ---
+fastapi[all]
+uvicorn[standard]
+python-multipart
+
+# --- Core ML & Data Science Libraries ---
+numpy
 scikit-learn
 pandas
-numpy
+opencv-python-headless
+
+# --- Optional: Add for real model implementations ---
+# torch
+# torchvision
+# tensorflow
+# transformers
+# spacy
+# joblib
+# pillow
